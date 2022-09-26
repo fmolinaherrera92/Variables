@@ -40,5 +40,11 @@ namespace Variables
             Console.WriteLine(monto);
 
         }
+
+        public void Booleanos()
+        {
+            bool soyFelipe = true;
+            bool dosMasDosEsCinco = false;
+        }
     }
 }
