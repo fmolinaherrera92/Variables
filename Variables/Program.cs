@@ -7,6 +7,9 @@ namespace Variables
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            string mensaje = "Este string contiene \\ y también \" pues lo escapamos \"";
+            Console.WriteLine( mensaje);
         }
 
         public void CodigoDelCurso()
