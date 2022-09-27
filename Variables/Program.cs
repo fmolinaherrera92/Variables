@@ -48,14 +48,14 @@ namespace Variables
             double anchura = 45.123456789; // Ocupa 8 bytes; Precisión de 15 a 17 dígitos
             decimal monto = 9.99m; // Ocupa 16 bytes; Precisión de 28 a 29 dígitos (es recomendado temas financieros)
 
-            Console.WriteLine("La altura es:");
-            Console.WriteLine(altura);
+            Console.WriteLine($"La altura es: {altura}");
+            
 
-            Console.WriteLine("La anchura es:");
-            Console.WriteLine(anchura);
+            Console.WriteLine($"La anchura es: {anchura}");
+            
 
-            Console.WriteLine("El precio es:");
-            Console.WriteLine(monto);
+            Console.WriteLine($"El precio es: {monto}");
+           
 
         }
 

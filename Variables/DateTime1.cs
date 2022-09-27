@@ -20,14 +20,12 @@ namespace Variables
             Console.WriteLine(primerDiaDelAño);
             Console.WriteLine(mañana);
 
-            Console.WriteLine("El dia es:");
-            Console.WriteLine(mañana.Day);
-
-            Console.WriteLine("El dia del año es:");
-            Console.WriteLine(mañana.DayOfYear);
-
-            Console.WriteLine("El dia de la semana es:");
-            Console.WriteLine(mañana.DayOfWeek);
+            Console.WriteLine($"El dia es:{mañana.Day}");
+            
+            Console.WriteLine($"El dia del año es:{mañana.DayOfYear}");
+          
+            Console.WriteLine($"El dia de la semana es:{mañana.DayOfWeek}");
+          
 
 
         }
