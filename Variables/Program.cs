@@ -25,6 +25,21 @@ namespace Variables
 
             short short1 = 30_000; // -32,768 hasta 32,767
             ushort ushort1 = 65_000; // 0 hasta 65,535
+
+            Console.WriteLine(distanciaDeLaTierraAlSolEnKilometros);
+            Console.WriteLine(uint2);
+            Console.WriteLine(long1);
+            Console.WriteLine(ulong1);
+            Console.WriteLine(byte1);
+            Console.WriteLine(sbyte1);
+            Console.WriteLine(short1);
+            Console.WriteLine(ushort1);
+
+
+
+
+
+
         }
 
         public void NumerosPuntoFlotantes()
@@ -48,6 +63,9 @@ namespace Variables
         {
             bool soyFelipe = true;
             bool dosMasDosEsCinco = false;
+
+            Console.WriteLine(soyFelipe);
+            Console.WriteLine(dosMasDosEsCinco);
         }
     }
 }
