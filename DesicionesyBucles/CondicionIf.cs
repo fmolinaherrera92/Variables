@@ -30,18 +30,21 @@ namespace DesicionesyBucles
 
         public void Ternario() 
         {
-            bool usuarioEstaLogueado = true;
+            bool usuarioEstaLogueado = false;
 
-            string mensajeBienvenida;
+            //string mensajeBienvenida;
 
-            if (usuarioEstaLogueado)
-            {
-                 mensajeBienvenida = "Bienvenido Usuario";
-            }
-            else
-            {
-                mensajeBienvenida = "Por favor debes Loguearte";
-            }
+            //if (usuarioEstaLogueado)
+            //{
+            //     mensajeBienvenida = "Bienvenido Usuario";
+            //}
+            //else
+            //{
+            //    mensajeBienvenida = "Por favor debes Loguearte";
+            //}
+
+            string mensajeBienvenida = usuarioEstaLogueado ? "Bienvenido Usuario": "Por favor debes Loguearte";
+            // <condicion> ? <si la condición es true> : <si la condición es false>
 
             Console.WriteLine(mensajeBienvenida);
         }
