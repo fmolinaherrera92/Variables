@@ -10,6 +10,7 @@ namespace Variables
 
             string mensaje = "Este string contiene \\ y también \" pues lo escapamos \"";
             Console.WriteLine( mensaje);
+
         }
 
         public void CodigoDelCurso()
