@@ -6,7 +6,8 @@ namespace MasAcercaDeTiposDeDatos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Tostriing PruebaToString = new Tostriing();
+            PruebaToString.ToStrIng();
         }
     }
 }
