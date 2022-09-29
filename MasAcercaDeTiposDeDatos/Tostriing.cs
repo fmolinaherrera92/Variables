@@ -29,32 +29,64 @@ namespace MasAcercaDeTiposDeDatos
         public void ToStrIngTryParse()
         {
 
-            // Ejemplo 1: Enteros
-            var CantidadString = "5";
+            //// Ejemplo 1: Enteros
+            //var CantidadString = "5";
 
-            int cantidad = int.Parse(CantidadString);
+            //int cantidad = int.Parse(CantidadString);
 
-            cantidad++;
+            //cantidad++;
 
-            Console.WriteLine(  cantidad);
+            //Console.WriteLine(  cantidad);
 
-            // Ejemplo 2: Decimal
-            var CantidadDecimalString = "4.9";
+            //// Ejemplo 2: Decimal
+            //var CantidadDecimalString = "4.9";
 
-            var CantidadDecimal = decimal.Parse(CantidadDecimalString);
+            //var CantidadDecimal = decimal.Parse(CantidadDecimalString);
 
-            CantidadDecimal++;
+            //CantidadDecimal++;
 
-            // Ejemplo 3: Booleanos
+            //Console.WriteLine(CantidadDecimal);
 
-            var BooleanoString = "True";
+            //// Ejemplo 3: Booleanos
 
-            var booleanos = bool.Parse(BooleanoString);
+            //var BooleanoString = "True";
 
-            if (booleanos)
+            //var booleanos = bool.Parse(BooleanoString);
+
+            //if (booleanos)
+            //{
+            //    Console.WriteLine("Convertimos de string a booleano");
+            //}
+
+            //// Ejemplo 4: Fechas
+
+            //var fechaString = "2022-05-09";
+
+            //var fecha = DateTime.Parse(fechaString);
+            //Console.WriteLine(fecha.AddYears(1));// 2023-05-09
+
+
+            var supuestoNumero = "Francisco";
+            // Lanza un error
+            //var numero = int.Parse(supuestoNumero);
+
+            int numero;
+
+            var pudoParsear = int.TryParse(supuestoNumero, out numero);
+
+            if (pudoParsear)
             {
-                Console.WriteLine("Convertimos de string a booleano");
+                numero++;
+                Console.WriteLine(numero);
+
             }
+            else
+            {
+                Console.WriteLine($"el Valor {supuestoNumero} no tiene el valor correcto. ");
+            }
+
+            
+
         }
     }
 }

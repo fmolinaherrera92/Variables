@@ -6,7 +6,7 @@ namespace DesicionesyBucles
     {
         static void Main(string[] args)
         {
-
+            
             SwichtCace2 Case= new SwichtCace2();
             //Case.suchicase();
             //Case.PatronRelacionado();

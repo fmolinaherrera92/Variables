@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using System;
+
 
 namespace MasAcercaDeTiposDeDatos
 {
@@ -6,8 +8,19 @@ namespace MasAcercaDeTiposDeDatos
     {
         static void Main(string[] args)
         {
-            Tostriing PruebaToString = new Tostriing();
-            PruebaToString.ToStrIngTryParse();
+            var EstatusVentaDeCamisa = EstatusVenta.Candelado;
+
+
+            Console.WriteLine(EstatusVentaDeCamisa);
+            Casteo Cast = new Casteo();
+
+            Cast.casteooExplicito();
+
+            Cast.casteooImplicito();
+
+
         }
+
+
     }
 }
