@@ -6,11 +6,15 @@ namespace DesicionesyBucles
     {
         static void Main(string[] args)
         {
-         
 
-            CondicionIf Condicion = new CondicionIf();
-            // Condicion.CondidionIF();
-            Condicion.Ternario();
+            SwichtCace2 Case= new SwichtCace2();
+            //Case.suchicase();
+            //Case.PatronRelacionado();
+            Case.BucleFor();
+
+            //CondicionIf Condicion = new CondicionIf();
+            //// Condicion.CondidionIF();
+            //Condicion.Ternario();
         }
     }
  }

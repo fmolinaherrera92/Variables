@@ -36,7 +36,7 @@ namespace DesicionesyBucles
 
             //if (usuarioEstaLogueado)
             //{
-            //     mensajeBienvenida = "Bienvenido Usuario";
+            //     mensajeBienvenida = "Bienvenido Usuario";  
             //}
             //else
             //{
