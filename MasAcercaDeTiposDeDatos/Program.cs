@@ -7,7 +7,7 @@ namespace MasAcercaDeTiposDeDatos
         static void Main(string[] args)
         {
             Tostriing PruebaToString = new Tostriing();
-            PruebaToString.ToStrIng();
+            PruebaToString.ToStrIngTryParse();
         }
     }
 }
