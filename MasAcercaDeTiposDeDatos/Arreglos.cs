@@ -18,8 +18,10 @@ namespace MasAcercaDeTiposDeDatos
 
             var ultimaVocal = Vocales [^1];
 
-            var Penultima = ^2;
+            Index Penultima = ^2;
             var penultimaVocal = Vocales[Penultima];
+
+            Console.WriteLine(penultimaVocal);
 
             // Console.WriteLine(segundaVocal); //e
 
@@ -32,12 +34,12 @@ namespace MasAcercaDeTiposDeDatos
 
             // Arreglos 2: Arreglos de enteros
 
-            var Primeros6Numeros = new int[] { 1, 2, 3, 4, 5 ,6};
+            //var Primeros6Numeros = new int[] { 1, 2, 3, 4, 5 ,6};
 
-            foreach (var numeros in Primeros6Numeros)
-            {
-                Console.Write($"{numeros} ");
-            }
+            //foreach (var numeros in Primeros6Numeros)
+            //{
+            //    Console.Write($"{numeros} ");
+            //}
 
             //Primeros6Numeros[0] = 1;
             //Primeros6Numeros[1] = 2;

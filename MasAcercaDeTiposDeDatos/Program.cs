@@ -8,11 +8,14 @@ namespace MasAcercaDeTiposDeDatos
     {
         static void Main(string[] args)
         {
+            Rangos Ran = new Rangos();
+            Ran.Rangoss();
 
-            Arreglos arr = new Arreglos();
 
-            arr.Array();
-            //var EstatusVentaDeCamisa = EstatusVenta.Cancelado;
+            //Arreglos arr = new Arreglos();
+
+            //arr.Array();
+            ////var EstatusVentaDeCamisa = EstatusVenta.Cancelado;
 
             //switch (EstatusVentaDeCamisa)
             //{
