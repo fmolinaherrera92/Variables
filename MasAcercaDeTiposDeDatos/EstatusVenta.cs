@@ -10,6 +10,6 @@ namespace MasAcercaDeTiposDeDatos
     {
         Exito =1 ,
         PendienteDePago =2 ,
-        Candelado = 3
+        Cancelado = 3
     }
 }

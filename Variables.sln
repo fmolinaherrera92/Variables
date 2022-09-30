@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Vari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesicionesyBucles", "DesicionesyBucles\DesicionesyBucles.csproj", "{4B657194-9D3F-487E-B56E-8A36A3C0561F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasAcercaDeTiposDeDatos", "MasAcercaDeTiposDeDatos\MasAcercaDeTiposDeDatos.csproj", "{2F70C8FF-ED2C-4DF8-AC2B-9146AC9F68F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasAcercaDeTiposDeDatos", "MasAcercaDeTiposDeDatos\MasAcercaDeTiposDeDatos.csproj", "{2F70C8FF-ED2C-4DF8-AC2B-9146AC9F68F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EB9A684-7B85-4E49-8A2D-BC3BA438CEF5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

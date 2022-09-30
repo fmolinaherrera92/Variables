@@ -8,15 +8,46 @@ namespace MasAcercaDeTiposDeDatos
     {
         static void Main(string[] args)
         {
-            var EstatusVentaDeCamisa = EstatusVenta.Candelado;
 
+            Arreglos arr = new Arreglos();
 
-            Console.WriteLine(EstatusVentaDeCamisa);
-            Casteo Cast = new Casteo();
+            arr.Array();
+            //var EstatusVentaDeCamisa = EstatusVenta.Cancelado;
 
-            Cast.casteooExplicito();
+            //switch (EstatusVentaDeCamisa)
+            //{
+            //    case EstatusVenta.Exito:
+            //        Console.WriteLine("La venta fue exitosa");
+            //        break;
+            //    case EstatusVenta.PendienteDePago:
+            //        Console.WriteLine("Cliente debe de Pagar");
 
-            Cast.casteooImplicito();
+            //        break;
+            //    case EstatusVenta.Candelado:
+            //        Console.WriteLine("Que hice para merecer esto?");
+
+            //        break;
+            //    default:
+            //        Console.WriteLine("Estatus Desconocido");
+
+            //        break;
+            //}
+            // Ejmplo 2:  Casteo
+
+            //int estatus = (int)EstatusVentaDeCamisa;
+            //Console.WriteLine(estatus);//3
+
+            //int estatus3 = 3;
+            //var estatus3Nombre = (EstatusVenta)estatus3;
+            //Console.WriteLine(estatus3Nombre);
+
+            //#pragma warning disable IDE0090 // Use 'new(...)'
+            //            Casteo Cast = new Casteo();
+            //#pragma warning restore IDE0090 // Use 'new(...)'
+
+            //            Cast.casteooExplicito();
+
+            //            Cast.casteooImplicito();
 
 
         }
